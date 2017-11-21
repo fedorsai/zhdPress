@@ -1,0 +1,132 @@
+C:\work\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll.config
+C:\work\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll
+C:\work\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Dal.pdb
+C:\work\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\log4net.dll
+C:\work\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Core.dll
+C:\work\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\OPCdotNETLib.dll
+C:\work\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Core.pdb
+C:\work\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\log4net.xml
+C:\work\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\OPCdotNETLib.pdb
+C:\work\ZDPress\ZDPress\ZDPress.Dal\obj\Debug\ZDPress.Dal.csprojResolveAssemblyReference.cache
+C:\work\ZDPress\ZDPress\ZDPress.Dal\obj\Debug\ZDPress.Dal.dll
+C:\work\ZDPress\ZDPress\ZDPress.Dal\obj\Debug\ZDPress.Dal.pdb
+C:\working\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll.config
+C:\working\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll
+C:\working\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Dal.pdb
+C:\working\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\log4net.dll
+C:\working\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Core.dll
+C:\working\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\OPCdotNETLib.dll
+C:\working\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Core.pdb
+C:\working\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\log4net.xml
+C:\working\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\OPCdotNETLib.pdb
+C:\working\ZDPress\ZDPress\ZDPress.Dal\obj\Debug\ZDPress.Dal.csprojResolveAssemblyReference.cache
+C:\working\ZDPress\ZDPress\ZDPress.Dal\obj\Debug\ZDPress.Dal.dll
+C:\working\ZDPress\ZDPress\ZDPress.Dal\obj\Debug\ZDPress.Dal.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll.config
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Dal.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\log4net.dll
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Core.dll
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\OPCdotNETLib.dll
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Core.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\log4net.xml
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress.Dal\bin\Debug\OPCdotNETLib.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress.Dal\obj\Debug\ZDPress.Dal.csprojResolveAssemblyReference.cache
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress.Dal\obj\Debug\ZDPress.Dal.dll
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress.Dal\obj\Debug\ZDPress.Dal.pdb
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll.config
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Dal.pdb
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Dal\bin\Debug\log4net.dll
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Opc.dll
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Dal\bin\Debug\OPCdotNETLib.dll
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Opc.pdb
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Dal\bin\Debug\log4net.xml
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Dal\bin\Debug\OPCdotNETLib.pdb
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Dal\obj\Debug\ZDPress.Dal.csprojResolveAssemblyReference.cache
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Dal\obj\Debug\ZDPress.Dal.dll
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Dal\obj\Debug\ZDPress.Dal.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll.config
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Dal.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress.Dal\bin\Debug\log4net.dll
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Opc.dll
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress.Dal\bin\Debug\OPCdotNETLib.dll
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress.Dal\bin\Debug\ZDPress.Opc.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress.Dal\bin\Debug\log4net.xml
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress.Dal\bin\Debug\OPCdotNETLib.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress.Dal\obj\Debug\ZDPress.Dal.csprojResolveAssemblyReference.cache
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress.Dal\obj\Debug\ZDPress.Dal.dll
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress.Dal\obj\Debug\ZDPress.Dal.pdb
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll.config
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Dal.pdb
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress.Dal\bin\Debug\log4net.dll
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Opc.dll
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress.Dal\bin\Debug\OPCdotNETLib.dll
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Opc.pdb
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress.Dal\bin\Debug\log4net.xml
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress.Dal\bin\Debug\OPCdotNETLib.pdb
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress.Dal\obj\Debug\ZDPress.Dal.csprojResolveAssemblyReference.cache
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress.Dal\obj\Debug\ZDPress.Dal.dll
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress.Dal\obj\Debug\ZDPress.Dal.pdb
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll.config
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Dal.pdb
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress.Dal\bin\Debug\log4net.dll
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Opc.dll
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress.Dal\bin\Debug\OPCdotNETLib.dll
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Opc.pdb
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress.Dal\bin\Debug\log4net.xml
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress.Dal\bin\Debug\OPCdotNETLib.pdb
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress.Dal\obj\Debug\ZDPress.Dal.csprojResolveAssemblyReference.cache
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress.Dal\obj\Debug\ZDPress.Dal.dll
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress.Dal\obj\Debug\ZDPress.Dal.pdb
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll.config
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Dal.pdb
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress.Dal\bin\Debug\log4net.dll
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Opc.dll
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress.Dal\bin\Debug\OPCdotNETLib.dll
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Opc.pdb
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress.Dal\bin\Debug\log4net.xml
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress.Dal\bin\Debug\OPCdotNETLib.pdb
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress.Dal\obj\Debug\ZDPress.Dal.csprojResolveAssemblyReference.cache
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress.Dal\obj\Debug\ZDPress.Dal.dll
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress.Dal\obj\Debug\ZDPress.Dal.pdb
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll.config
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Dal.pdb
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\bin\Debug\log4net.dll
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Opc.dll
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\bin\Debug\OPCdotNETLib.dll
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Opc.pdb
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\bin\Debug\log4net.xml
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\bin\Debug\OPCdotNETLib.pdb
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\obj\Debug\ZDPress.Dal.csprojResolveAssemblyReference.cache
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\obj\Debug\ZDPress.Dal.dll
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\obj\Debug\ZDPress.Dal.pdb
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll.config
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Dal.pdb
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\bin\Debug\log4net.dll
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Opc.dll
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\bin\Debug\OPCdotNETLib.dll
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Opc.pdb
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\bin\Debug\log4net.xml
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\bin\Debug\OPCdotNETLib.pdb
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\obj\Debug\ZDPress.Dal.csprojResolveAssemblyReference.cache
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\obj\Debug\ZDPress.Dal.dll
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress.Dal\obj\Debug\ZDPress.Dal.pdb
+C:\prg\ZDPressNew\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll.config
+C:\prg\ZDPressNew\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Dal.dll
+C:\prg\ZDPressNew\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Dal.pdb
+C:\prg\ZDPressNew\ZDPressNew\ZDPress.Dal\bin\Debug\log4net.dll
+C:\prg\ZDPressNew\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Opc.dll
+C:\prg\ZDPressNew\ZDPressNew\ZDPress.Dal\bin\Debug\OPCdotNETLib.dll
+C:\prg\ZDPressNew\ZDPressNew\ZDPress.Dal\bin\Debug\ZDPress.Opc.pdb
+C:\prg\ZDPressNew\ZDPressNew\ZDPress.Dal\bin\Debug\log4net.xml
+C:\prg\ZDPressNew\ZDPressNew\ZDPress.Dal\bin\Debug\OPCdotNETLib.pdb
+C:\prg\ZDPressNew\ZDPressNew\ZDPress.Dal\obj\Debug\ZDPress.Dal.csprojResolveAssemblyReference.cache
+C:\prg\ZDPressNew\ZDPressNew\ZDPress.Dal\obj\Debug\ZDPress.Dal.dll
+C:\prg\ZDPressNew\ZDPressNew\ZDPress.Dal\obj\Debug\ZDPress.Dal.pdb

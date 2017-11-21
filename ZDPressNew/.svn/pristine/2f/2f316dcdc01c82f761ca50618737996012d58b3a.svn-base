@@ -1,0 +1,465 @@
+﻿namespace ZDPress.UI.Forms
+{
+    partial class ChartForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.tableLayoutPanelMain = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanelTop = new System.Windows.Forms.TableLayoutPanel();
+            this.panelRight = new System.Windows.Forms.Panel();
+            this.panelBottom = new System.Windows.Forms.Panel();
+            this.textBoxDlinaPramUch = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBoxMaxUsil = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBoxUsil100 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBoxSopr = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBoxNatag = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBoxDlin = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBoxOtv = new System.Windows.Forms.TextBox();
+            this.labelOtv = new System.Windows.Forms.Label();
+            this.textBoxPods = new System.Windows.Forms.TextBox();
+            this.labelc = new System.Windows.Forms.Label();
+            this.textBoxNomerKolesa = new System.Windows.Forms.TextBox();
+            this.labelNomerKolesa = new System.Windows.Forms.Label();
+            this.textBoxStorona = new System.Windows.Forms.TextBox();
+            this.labelStorona = new System.Windows.Forms.Label();
+            this.textBoxTipColesPar = new System.Windows.Forms.TextBox();
+            this.labelTipColesPar = new System.Windows.Forms.Label();
+            this.textBoxNomerOsi = new System.Windows.Forms.TextBox();
+            this.labelNomerOsi = new System.Windows.Forms.Label();
+            this.textBoxZav = new System.Windows.Forms.TextBox();
+            this.labelZav = new System.Windows.Forms.Label();
+            this.textBoxDiag = new System.Windows.Forms.TextBox();
+            this.labelDiag = new System.Windows.Forms.Label();
+            this.zdButton1 = new ZDPress.UI.Controls.ZDButton();
+            this.zdButton4 = new ZDPress.UI.Controls.ZDButton();
+            this.zdButton5 = new ZDPress.UI.Controls.ZDButton();
+            this.tableLayoutPanelMain.SuspendLayout();
+            this.tableLayoutPanelTop.SuspendLayout();
+            this.panelBottom.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // tableLayoutPanelMain
+            // 
+            this.tableLayoutPanelMain.ColumnCount = 2;
+            this.tableLayoutPanelMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80.60345F));
+            this.tableLayoutPanelMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.39655F));
+            this.tableLayoutPanelMain.Controls.Add(this.tableLayoutPanelTop, 0, 0);
+            this.tableLayoutPanelMain.Controls.Add(this.panelRight, 1, 1);
+            this.tableLayoutPanelMain.Controls.Add(this.panelBottom, 0, 2);
+            this.tableLayoutPanelMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanelMain.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanelMain.MinimumSize = new System.Drawing.Size(1, 1);
+            this.tableLayoutPanelMain.Name = "tableLayoutPanelMain";
+            this.tableLayoutPanelMain.RowCount = 4;
+            this.tableLayoutPanelMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.779766F));
+            this.tableLayoutPanelMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 90.22024F));
+            this.tableLayoutPanelMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 71F));
+            this.tableLayoutPanelMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanelMain.Size = new System.Drawing.Size(859, 504);
+            this.tableLayoutPanelMain.TabIndex = 0;
+            // 
+            // tableLayoutPanelTop
+            // 
+            this.tableLayoutPanelTop.ColumnCount = 3;
+            this.tableLayoutPanelMain.SetColumnSpan(this.tableLayoutPanelTop, 2);
+            this.tableLayoutPanelTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanelTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanelTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanelTop.Controls.Add(this.zdButton1, 0, 0);
+            this.tableLayoutPanelTop.Controls.Add(this.zdButton4, 1, 0);
+            this.tableLayoutPanelTop.Controls.Add(this.zdButton5, 2, 0);
+            this.tableLayoutPanelTop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanelTop.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanelTop.Name = "tableLayoutPanelTop";
+            this.tableLayoutPanelTop.RowCount = 1;
+            this.tableLayoutPanelTop.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanelTop.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+            this.tableLayoutPanelTop.Size = new System.Drawing.Size(853, 32);
+            this.tableLayoutPanelTop.TabIndex = 0;
+            // 
+            // panelRight
+            // 
+            this.panelRight.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelRight.Location = new System.Drawing.Point(695, 41);
+            this.panelRight.Name = "panelRight";
+            this.panelRight.Size = new System.Drawing.Size(161, 348);
+            this.panelRight.TabIndex = 2;
+            // 
+            // panelBottom
+            // 
+            this.tableLayoutPanelMain.SetColumnSpan(this.panelBottom, 2);
+            this.panelBottom.Controls.Add(this.textBoxDlinaPramUch);
+            this.panelBottom.Controls.Add(this.label9);
+            this.panelBottom.Controls.Add(this.textBoxMaxUsil);
+            this.panelBottom.Controls.Add(this.label8);
+            this.panelBottom.Controls.Add(this.textBoxUsil100);
+            this.panelBottom.Controls.Add(this.label6);
+            this.panelBottom.Controls.Add(this.textBoxSopr);
+            this.panelBottom.Controls.Add(this.label5);
+            this.panelBottom.Controls.Add(this.textBoxNatag);
+            this.panelBottom.Controls.Add(this.label4);
+            this.panelBottom.Controls.Add(this.textBoxDlin);
+            this.panelBottom.Controls.Add(this.label3);
+            this.panelBottom.Controls.Add(this.textBoxOtv);
+            this.panelBottom.Controls.Add(this.labelOtv);
+            this.panelBottom.Controls.Add(this.textBoxPods);
+            this.panelBottom.Controls.Add(this.labelc);
+            this.panelBottom.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelBottom.Location = new System.Drawing.Point(3, 395);
+            this.panelBottom.Name = "panelBottom";
+            this.panelBottom.Size = new System.Drawing.Size(853, 65);
+            this.panelBottom.TabIndex = 3;
+            // 
+            // textBoxDlinaPramUch
+            // 
+            this.textBoxDlinaPramUch.Location = new System.Drawing.Point(747, 32);
+            this.textBoxDlinaPramUch.Name = "textBoxDlinaPramUch";
+            this.textBoxDlinaPramUch.Size = new System.Drawing.Size(100, 20);
+            this.textBoxDlinaPramUch.TabIndex = 15;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(743, 4);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(82, 26);
+            this.label9.TabIndex = 14;
+            this.label9.Text = "Длина прямых\r\nучастков";
+            // 
+            // textBoxMaxUsil
+            // 
+            this.textBoxMaxUsil.Location = new System.Drawing.Point(641, 32);
+            this.textBoxMaxUsil.Name = "textBoxMaxUsil";
+            this.textBoxMaxUsil.Size = new System.Drawing.Size(100, 20);
+            this.textBoxMaxUsil.TabIndex = 13;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(639, 4);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(73, 26);
+            this.label8.TabIndex = 12;
+            this.label8.Text = "Макс. усил.\r\nзапрессовки";
+            // 
+            // textBoxUsil100
+            // 
+            this.textBoxUsil100.Location = new System.Drawing.Point(537, 32);
+            this.textBoxUsil100.Name = "textBoxUsil100";
+            this.textBoxUsil100.Size = new System.Drawing.Size(100, 20);
+            this.textBoxUsil100.TabIndex = 11;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(535, 4);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(75, 26);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Усил. запрес\r\nна 100мм";
+            // 
+            // textBoxSopr
+            // 
+            this.textBoxSopr.Location = new System.Drawing.Point(431, 32);
+            this.textBoxSopr.Name = "textBoxSopr";
+            this.textBoxSopr.Size = new System.Drawing.Size(100, 20);
+            this.textBoxSopr.TabIndex = 9;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(429, 4);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(105, 13);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Длина сопряжения";
+            // 
+            // textBoxNatag
+            // 
+            this.textBoxNatag.Location = new System.Drawing.Point(326, 32);
+            this.textBoxNatag.Name = "textBoxNatag";
+            this.textBoxNatag.Size = new System.Drawing.Size(100, 20);
+            this.textBoxNatag.TabIndex = 7;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(324, 4);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(37, 13);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Натяг";
+            // 
+            // textBoxDlin
+            // 
+            this.textBoxDlin.Location = new System.Drawing.Point(222, 32);
+            this.textBoxDlin.Name = "textBoxDlin";
+            this.textBoxDlin.Size = new System.Drawing.Size(100, 20);
+            this.textBoxDlin.TabIndex = 5;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(220, 4);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(85, 13);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Длина ступицы";
+            // 
+            // textBoxOtv
+            // 
+            this.textBoxOtv.Location = new System.Drawing.Point(118, 32);
+            this.textBoxOtv.Name = "textBoxOtv";
+            this.textBoxOtv.Size = new System.Drawing.Size(100, 20);
+            this.textBoxOtv.TabIndex = 3;
+            // 
+            // labelOtv
+            // 
+            this.labelOtv.AutoSize = true;
+            this.labelOtv.Location = new System.Drawing.Point(116, 4);
+            this.labelOtv.Name = "labelOtv";
+            this.labelOtv.Size = new System.Drawing.Size(76, 26);
+            this.labelOtv.TabIndex = 2;
+            this.labelOtv.Text = "Диаметр отв.\r\nступицы";
+            // 
+            // textBoxPods
+            // 
+            this.textBoxPods.Location = new System.Drawing.Point(12, 32);
+            this.textBoxPods.Name = "textBoxPods";
+            this.textBoxPods.Size = new System.Drawing.Size(100, 20);
+            this.textBoxPods.TabIndex = 1;
+            // 
+            // labelc
+            // 
+            this.labelc.AutoSize = true;
+            this.labelc.Location = new System.Drawing.Point(9, 4);
+            this.labelc.Name = "labelc";
+            this.labelc.Size = new System.Drawing.Size(83, 26);
+            this.labelc.TabIndex = 0;
+            this.labelc.Text = "Диаметр подс.\r\nчасти";
+            // 
+            // textBoxNomerKolesa
+            // 
+            this.textBoxNomerKolesa.Location = new System.Drawing.Point(10, 225);
+            this.textBoxNomerKolesa.Name = "textBoxNomerKolesa";
+            this.textBoxNomerKolesa.Size = new System.Drawing.Size(100, 20);
+            this.textBoxNomerKolesa.TabIndex = 11;
+            // 
+            // labelNomerKolesa
+            // 
+            this.labelNomerKolesa.AutoSize = true;
+            this.labelNomerKolesa.Location = new System.Drawing.Point(7, 208);
+            this.labelNomerKolesa.Name = "labelNomerKolesa";
+            this.labelNomerKolesa.Size = new System.Drawing.Size(58, 13);
+            this.labelNomerKolesa.TabIndex = 10;
+            this.labelNomerKolesa.Text = "№ Колеса";
+            // 
+            // textBoxStorona
+            // 
+            this.textBoxStorona.Location = new System.Drawing.Point(6, 181);
+            this.textBoxStorona.Name = "textBoxStorona";
+            this.textBoxStorona.Size = new System.Drawing.Size(100, 20);
+            this.textBoxStorona.TabIndex = 9;
+            // 
+            // labelStorona
+            // 
+            this.labelStorona.AutoSize = true;
+            this.labelStorona.Location = new System.Drawing.Point(4, 165);
+            this.labelStorona.Name = "labelStorona";
+            this.labelStorona.Size = new System.Drawing.Size(49, 13);
+            this.labelStorona.TabIndex = 8;
+            this.labelStorona.Text = "Сторона";
+            // 
+            // textBoxTipColesPar
+            // 
+            this.textBoxTipColesPar.Location = new System.Drawing.Point(7, 142);
+            this.textBoxTipColesPar.Name = "textBoxTipColesPar";
+            this.textBoxTipColesPar.Size = new System.Drawing.Size(100, 20);
+            this.textBoxTipColesPar.TabIndex = 7;
+            // 
+            // labelTipColesPar
+            // 
+            this.labelTipColesPar.AutoSize = true;
+            this.labelTipColesPar.Location = new System.Drawing.Point(4, 126);
+            this.labelTipColesPar.Name = "labelTipColesPar";
+            this.labelTipColesPar.Size = new System.Drawing.Size(106, 13);
+            this.labelTipColesPar.TabIndex = 6;
+            this.labelTipColesPar.Text = "Тип колесной пары";
+            // 
+            // textBoxNomerOsi
+            // 
+            this.textBoxNomerOsi.Location = new System.Drawing.Point(7, 103);
+            this.textBoxNomerOsi.Name = "textBoxNomerOsi";
+            this.textBoxNomerOsi.Size = new System.Drawing.Size(100, 20);
+            this.textBoxNomerOsi.TabIndex = 5;
+            // 
+            // labelNomerOsi
+            // 
+            this.labelNomerOsi.AutoSize = true;
+            this.labelNomerOsi.Location = new System.Drawing.Point(3, 87);
+            this.labelNomerOsi.Name = "labelNomerOsi";
+            this.labelNomerOsi.Size = new System.Drawing.Size(41, 13);
+            this.labelNomerOsi.TabIndex = 4;
+            this.labelNomerOsi.Text = "№ Оси";
+            // 
+            // textBoxZav
+            // 
+            this.textBoxZav.Location = new System.Drawing.Point(7, 64);
+            this.textBoxZav.Name = "textBoxZav";
+            this.textBoxZav.Size = new System.Drawing.Size(100, 20);
+            this.textBoxZav.TabIndex = 3;
+            // 
+            // labelZav
+            // 
+            this.labelZav.AutoSize = true;
+            this.labelZav.Location = new System.Drawing.Point(4, 48);
+            this.labelZav.Name = "labelZav";
+            this.labelZav.Size = new System.Drawing.Size(58, 13);
+            this.labelZav.TabIndex = 2;
+            this.labelZav.Text = "№ Завода";
+            // 
+            // textBoxDiag
+            // 
+            this.textBoxDiag.Location = new System.Drawing.Point(7, 21);
+            this.textBoxDiag.Name = "textBoxDiag";
+            this.textBoxDiag.Size = new System.Drawing.Size(100, 20);
+            this.textBoxDiag.TabIndex = 1;
+            // 
+            // labelDiag
+            // 
+            this.labelDiag.AutoSize = true;
+            this.labelDiag.Location = new System.Drawing.Point(4, 4);
+            this.labelDiag.Name = "labelDiag";
+            this.labelDiag.Size = new System.Drawing.Size(83, 13);
+            this.labelDiag.TabIndex = 0;
+            this.labelDiag.Text = "№ Диаграммы";
+            // 
+            // zdButton1
+            // 
+            this.zdButton1.BackColor = System.Drawing.Color.AliceBlue;
+            this.zdButton1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.zdButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.zdButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.zdButton1.Location = new System.Drawing.Point(3, 3);
+            this.zdButton1.MinimumSize = new System.Drawing.Size(2, 2);
+            this.zdButton1.Name = "zdButton1";
+            this.zdButton1.Size = new System.Drawing.Size(278, 26);
+            this.zdButton1.TabIndex = 0;
+            this.zdButton1.Text = "zdButton1";
+            this.zdButton1.UseVisualStyleBackColor = false;
+            // 
+            // zdButton4
+            // 
+            this.zdButton4.BackColor = System.Drawing.Color.AliceBlue;
+            this.zdButton4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.zdButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.zdButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.zdButton4.Location = new System.Drawing.Point(287, 3);
+            this.zdButton4.MinimumSize = new System.Drawing.Size(0, 1);
+            this.zdButton4.Name = "zdButton4";
+            this.zdButton4.Size = new System.Drawing.Size(278, 26);
+            this.zdButton4.TabIndex = 1;
+            this.zdButton4.Text = "zdButton4";
+            this.zdButton4.UseVisualStyleBackColor = false;
+            // 
+            // zdButton5
+            // 
+            this.zdButton5.BackColor = System.Drawing.Color.AliceBlue;
+            this.zdButton5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.zdButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.zdButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.zdButton5.Location = new System.Drawing.Point(571, 3);
+            this.zdButton5.MinimumSize = new System.Drawing.Size(0, 2);
+            this.zdButton5.Name = "zdButton5";
+            this.zdButton5.Size = new System.Drawing.Size(279, 26);
+            this.zdButton5.TabIndex = 2;
+            this.zdButton5.Text = "zdButton5";
+            this.zdButton5.UseVisualStyleBackColor = false;
+            // 
+            // ChartForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(859, 504);
+            this.Controls.Add(this.tableLayoutPanelMain);
+            this.Name = "ChartForm";
+            this.tableLayoutPanelMain.ResumeLayout(false);
+            this.tableLayoutPanelTop.ResumeLayout(false);
+            this.panelBottom.ResumeLayout(false);
+            this.panelBottom.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanelMain;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanelTop;
+        private Controls.ZDButton zdButton2;
+        private Controls.ZDButton zdButton3;
+        private Controls.ZDChart zdChart1;
+        private System.Windows.Forms.Panel panelRight;
+        private System.Windows.Forms.TextBox textBoxNomerKolesa;
+        private System.Windows.Forms.Label labelNomerKolesa;
+        private System.Windows.Forms.TextBox textBoxStorona;
+        private System.Windows.Forms.Label labelStorona;
+        private System.Windows.Forms.TextBox textBoxTipColesPar;
+        private System.Windows.Forms.Label labelTipColesPar;
+        private System.Windows.Forms.TextBox textBoxNomerOsi;
+        private System.Windows.Forms.Label labelNomerOsi;
+        private System.Windows.Forms.TextBox textBoxZav;
+        private System.Windows.Forms.Label labelZav;
+        private System.Windows.Forms.TextBox textBoxDiag;
+        private System.Windows.Forms.Label labelDiag;
+        private System.Windows.Forms.Panel panelBottom;
+        private System.Windows.Forms.TextBox textBoxDlinaPramUch;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox textBoxMaxUsil;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBoxUsil100;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBoxSopr;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBoxNatag;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBoxDlin;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBoxOtv;
+        private System.Windows.Forms.Label labelOtv;
+        private System.Windows.Forms.TextBox textBoxPods;
+        private System.Windows.Forms.Label labelc;
+        private Controls.ZDButton zdButton1;
+        private Controls.ZDButton zdButton4;
+        private Controls.ZDButton zdButton5;
+    }
+}

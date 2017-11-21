@@ -1,0 +1,16 @@
+C:\prg\ZDPressNew\ZDPressNew\ZDPress.Core\bin\Release\ZDPress.Opc.dll
+C:\prg\ZDPressNew\ZDPressNew\ZDPress.Core\bin\Release\ZDPress.Opc.pdb
+C:\prg\ZDPressNew\ZDPressNew\ZDPress.Core\bin\Release\log4net.dll
+C:\prg\ZDPressNew\ZDPressNew\ZDPress.Core\bin\Release\OPCdotNETLib.dll
+C:\prg\ZDPressNew\ZDPressNew\ZDPress.Core\bin\Release\log4net.xml
+C:\prg\ZDPressNew\ZDPressNew\ZDPress.Core\obj\Release\ZDPress.Opc.csprojResolveAssemblyReference.cache
+C:\prg\ZDPressNew\ZDPressNew\ZDPress.Core\obj\Release\ZDPress.Opc.dll
+C:\prg\ZDPressNew\ZDPressNew\ZDPress.Core\obj\Release\ZDPress.Opc.pdb
+C:\prg\ZDPressNew_21.11.2017\ZDPressNew\ZDPress.Core\bin\Release\ZDPress.Opc.dll
+C:\prg\ZDPressNew_21.11.2017\ZDPressNew\ZDPress.Core\bin\Release\ZDPress.Opc.pdb
+C:\prg\ZDPressNew_21.11.2017\ZDPressNew\ZDPress.Core\bin\Release\log4net.dll
+C:\prg\ZDPressNew_21.11.2017\ZDPressNew\ZDPress.Core\bin\Release\OPCdotNETLib.dll
+C:\prg\ZDPressNew_21.11.2017\ZDPressNew\ZDPress.Core\bin\Release\log4net.xml
+C:\prg\ZDPressNew_21.11.2017\ZDPressNew\ZDPress.Core\obj\Release\ZDPress.Opc.csprojResolveAssemblyReference.cache
+C:\prg\ZDPressNew_21.11.2017\ZDPressNew\ZDPress.Core\obj\Release\ZDPress.Opc.dll
+C:\prg\ZDPressNew_21.11.2017\ZDPressNew\ZDPress.Core\obj\Release\ZDPress.Opc.pdb

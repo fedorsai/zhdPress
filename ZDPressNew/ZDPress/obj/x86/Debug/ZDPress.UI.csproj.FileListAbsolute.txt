@@ -1,0 +1,360 @@
+C:\work\ZDPress\ZDPress\ZDPress\bin\Debug\Reports\ZDPress.rdlc
+C:\work\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.UI.exe.config
+C:\work\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.UI.exe
+C:\work\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.UI.pdb
+C:\work\ZDPress\ZDPress\ZDPress\bin\Debug\log4net.dll
+C:\work\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.Core.dll
+C:\work\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.Dal.dll
+C:\work\ZDPress\ZDPress\ZDPress\bin\Debug\OPCdotNETLib.dll
+C:\work\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.Core.pdb
+C:\work\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.Dal.pdb
+C:\work\ZDPress\ZDPress\ZDPress\bin\Debug\log4net.xml
+C:\work\ZDPress\ZDPress\ZDPress\bin\Debug\OPCdotNETLib.pdb
+C:\work\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.csprojResolveAssemblyReference.cache
+C:\work\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Controls.PagingUserControl.resources
+C:\work\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.ChartForm.resources
+C:\work\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.IdentifierPressureForm.resources
+C:\work\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.OperationSelectForm1.resources
+C:\work\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.FunctionSelectForm.resources
+C:\work\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.MainForm.resources
+C:\work\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.OperationSelectForm2.resources
+C:\work\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.OperationsForm.resources
+C:\work\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.ParametersForm.resources
+C:\work\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Reports.ReportForm.resources
+C:\work\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.ShellForm.resources
+C:\work\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Properties.Resources.resources
+C:\work\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.csproj.GenerateResource.Cache
+C:\work\ZDPress\ZDPress\ZDPress\obj\x86\Debug\RdlCompile.cache
+C:\work\ZDPress\ZDPress\ZDPress\obj\x86\Debug\RdlCompile.compiled
+C:\work\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.exe
+C:\work\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.pdb
+C:\working\ZDPress\ZDPress\ZDPress\bin\Debug\Reports\ZDPress.rdlc
+C:\working\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.UI.exe.config
+C:\working\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.UI.exe
+C:\working\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.UI.pdb
+C:\working\ZDPress\ZDPress\ZDPress\bin\Debug\log4net.dll
+C:\working\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.Core.dll
+C:\working\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.Dal.dll
+C:\working\ZDPress\ZDPress\ZDPress\bin\Debug\OPCdotNETLib.dll
+C:\working\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.Core.pdb
+C:\working\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.Dal.pdb
+C:\working\ZDPress\ZDPress\ZDPress\bin\Debug\log4net.xml
+C:\working\ZDPress\ZDPress\ZDPress\bin\Debug\OPCdotNETLib.pdb
+C:\working\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.csprojResolveAssemblyReference.cache
+C:\working\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Controls.PagingUserControl.resources
+C:\working\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.ChartForm.resources
+C:\working\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.IdentifierPressureForm.resources
+C:\working\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.OperationSelectForm1.resources
+C:\working\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.FunctionSelectForm.resources
+C:\working\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.MainForm.resources
+C:\working\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.OperationSelectForm2.resources
+C:\working\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.OperationsForm.resources
+C:\working\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.ParametersForm.resources
+C:\working\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Reports.ReportForm.resources
+C:\working\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.ShellForm.resources
+C:\working\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Properties.Resources.resources
+C:\working\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.csproj.GenerateResource.Cache
+C:\working\ZDPress\ZDPress\ZDPress\obj\x86\Debug\RdlCompile.cache
+C:\working\ZDPress\ZDPress\ZDPress\obj\x86\Debug\RdlCompile.compiled
+C:\working\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.exe
+C:\working\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.UI.exe.config
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.exe
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\bin\Debug\Reports\ZDPress.rdlc
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.UI.exe
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.UI.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\bin\Debug\log4net.dll
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.Core.dll
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.Dal.dll
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\bin\Debug\OPCdotNETLib.dll
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.Core.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\bin\Debug\ZDPress.Dal.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\bin\Debug\log4net.xml
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\bin\Debug\OPCdotNETLib.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.csprojResolveAssemblyReference.cache
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Controls.PagingUserControl.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.ChartForm.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.IdentifierPressureForm.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.OperationSelectForm1.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.FunctionSelectForm.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.MainForm.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.OperationSelectForm2.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.OperationsForm.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Forms.ParametersForm.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Reports.ReportForm.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.ShellForm.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Properties.Resources.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.csproj.GenerateResource.Cache
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\obj\x86\Debug\RdlCompile.cache
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\ZDPress\obj\x86\Debug\RdlCompile.compiled
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\bin\Debug\Reports\ZDPress.rdlc
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\bin\Debug\ZDPress.UI.exe.config
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\bin\Debug\ZDPress.UI.exe
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\bin\Debug\ZDPress.UI.pdb
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\bin\Debug\log4net.dll
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\bin\Debug\ZDPress.Dal.dll
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\bin\Debug\ZDPress.Opc.dll
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\bin\Debug\OPCdotNETLib.dll
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\bin\Debug\ZDPress.Opc.pdb
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\bin\Debug\ZDPress.Dal.pdb
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\bin\Debug\log4net.xml
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\bin\Debug\OPCdotNETLib.pdb
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.csprojResolveAssemblyReference.cache
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Controls.PagingUserControl.resources
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Views.ChartForm.resources
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Views.IdentifierPressureForm.resources
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationListForm.resources
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationSelectForm1.resources
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Views.FunctionSelectForm.resources
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Views.MainForm.resources
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationSelectForm2.resources
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Views.ParametersForm.resources
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Reports.ReportForm.resources
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.ShellForm.resources
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Properties.Resources.resources
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.csproj.GenerateResource.Cache
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\obj\x86\Debug\RdlCompile.cache
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\obj\x86\Debug\RdlCompile.compiled
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.exe
+F:\SHARE\ZDPress_new\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\bin\Debug\ZDPress.UI.exe.config
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.exe
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\bin\Debug\Reports\ZDPress.rdlc
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\bin\Debug\ZDPress.UI.exe
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\bin\Debug\ZDPress.UI.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\bin\Debug\log4net.dll
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\bin\Debug\ZDPress.Dal.dll
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\bin\Debug\ZDPress.Opc.dll
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\bin\Debug\OPCdotNETLib.dll
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\bin\Debug\ZDPress.Opc.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\bin\Debug\ZDPress.Dal.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\bin\Debug\log4net.xml
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\bin\Debug\OPCdotNETLib.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.csprojResolveAssemblyReference.cache
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Controls.PagingUserControl.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Views.ChartForm.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Views.IdentifierPressureForm.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationListForm.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationSelectForm1.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Views.FunctionSelectForm.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Views.MainForm.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationSelectForm2.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Views.ParametersForm.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Reports.ReportForm.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.ShellForm.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.Properties.Resources.resources
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\obj\x86\Debug\ZDPress.UI.csproj.GenerateResource.Cache
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\obj\x86\Debug\RdlCompile.cache
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\obj\x86\Debug\RdlCompile.compiled
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\Reports\ZDPress.rdlc
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.exe.config
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.exe
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.pdb
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\log4net.dll
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\ZDPress.Dal.dll
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\ZDPress.Opc.dll
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\OPCdotNETLib.dll
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\ZDPress.Opc.pdb
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\ZDPress.Dal.pdb
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\log4net.xml
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\OPCdotNETLib.pdb
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.csprojResolveAssemblyReference.cache
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Controls.PagingUserControl.resources
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.ChartForm.resources
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.IdentifierPressureForm.resources
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationListForm.resources
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationSelectForm1.resources
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.FunctionSelectForm.resources
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.MainForm.resources
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationSelectForm2.resources
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.ParametersForm.resources
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Reports.ReportForm.resources
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.ShellForm.resources
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Properties.Resources.resources
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.csproj.GenerateResource.Cache
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\RdlCompile.cache
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\RdlCompile.compiled
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.exe
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.pdb
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.exe.config
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.exe
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.pdb
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\bin\Debug\Reports\ZDPress.rdlc
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.exe
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.pdb
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\bin\Debug\log4net.dll
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\bin\Debug\ZDPress.Dal.dll
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\bin\Debug\ZDPress.Opc.dll
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\bin\Debug\OPCdotNETLib.dll
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\bin\Debug\ZDPress.Opc.pdb
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\bin\Debug\ZDPress.Dal.pdb
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\bin\Debug\log4net.xml
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\bin\Debug\OPCdotNETLib.pdb
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.csprojResolveAssemblyReference.cache
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Controls.PagingUserControl.resources
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.ChartForm.resources
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.IdentifierPressureForm.resources
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationListForm.resources
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationSelectForm1.resources
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.FunctionSelectForm.resources
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.MainForm.resources
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationSelectForm2.resources
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.ParametersForm.resources
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Reports.ReportForm.resources
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.ShellForm.resources
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Properties.Resources.resources
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.csproj.GenerateResource.Cache
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\obj\x86\Debug\RdlCompile.cache
+C:\Users\Фёдор\Downloads\ZDPressNew\ZDPress\obj\x86\Debug\RdlCompile.compiled
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\bin\Debug\Reports\ZDPress.rdlc
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.exe.config
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.exe
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.pdb
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\bin\Debug\log4net.dll
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\bin\Debug\ZDPress.Dal.dll
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\bin\Debug\ZDPress.Opc.dll
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\bin\Debug\OPCdotNETLib.dll
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\bin\Debug\ZDPress.Opc.pdb
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\bin\Debug\ZDPress.Dal.pdb
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\bin\Debug\log4net.xml
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\bin\Debug\OPCdotNETLib.pdb
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.csprojResolveAssemblyReference.cache
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Controls.PagingUserControl.resources
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.ChartForm.resources
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.IdentifierPressureForm.resources
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationListForm.resources
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationSelectForm1.resources
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.FunctionSelectForm.resources
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.MainForm.resources
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationSelectForm2.resources
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.ParametersForm.resources
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Reports.ReportForm.resources
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.ShellForm.resources
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Properties.Resources.resources
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.csproj.GenerateResource.Cache
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\obj\x86\Debug\RdlCompile.cache
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\obj\x86\Debug\RdlCompile.compiled
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.exe
+F:\SHARE\ZDPressNew (1)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.pdb
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.exe.config
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.exe
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.pdb
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\Reports\ZDPress.rdlc
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.exe
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.pdb
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\log4net.dll
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.Dal.dll
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.Opc.dll
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\OPCdotNETLib.dll
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.Opc.pdb
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.Dal.pdb
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\log4net.xml
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\OPCdotNETLib.pdb
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.csprojResolveAssemblyReference.cache
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Controls.PagingUserControl.resources
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.ChartForm.resources
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.IdentifierPressureForm.resources
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationListForm.resources
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationSelectForm1.resources
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.FunctionSelectForm.resources
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.MainForm.resources
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationSelectForm2.resources
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.ParametersForm.resources
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Reports.ReportForm.resources
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.ShellForm.resources
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Properties.Resources.resources
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.csproj.GenerateResource.Cache
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\RdlCompile.cache
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\RdlCompile.compiled
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.exe.config
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.exe
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.pdb
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\Reports\ZDPress.rdlc
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.exe
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.pdb
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\log4net.dll
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.Dal.dll
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.Opc.dll
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\OPCdotNETLib.dll
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.Opc.pdb
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.Dal.pdb
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\log4net.xml
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\OPCdotNETLib.pdb
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.csprojResolveAssemblyReference.cache
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Controls.PagingUserControl.resources
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.ChartForm.resources
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.IdentifierPressureForm.resources
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationListForm.resources
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationSelectForm1.resources
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.FunctionSelectForm.resources
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.MainForm.resources
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationSelectForm2.resources
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.ParametersForm.resources
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Reports.ReportForm.resources
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.ShellForm.resources
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Properties.Resources.resources
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.csproj.GenerateResource.Cache
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\RdlCompile.cache
+D:\Контроллеры\ZhD\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\RdlCompile.compiled
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\Reports\ZDPress.rdlc
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.exe.config
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.exe
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.pdb
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\log4net.dll
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.Dal.dll
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.Opc.dll
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\OPCdotNETLib.dll
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.Opc.pdb
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\ZDPress.Dal.pdb
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\log4net.xml
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\bin\Debug\OPCdotNETLib.pdb
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.csprojResolveAssemblyReference.cache
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Controls.PagingUserControl.resources
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.ChartForm.resources
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.IdentifierPressureForm.resources
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationListForm.resources
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationSelectForm1.resources
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.FunctionSelectForm.resources
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.MainForm.resources
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationSelectForm2.resources
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.ParametersForm.resources
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Reports.ReportForm.resources
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.ShellForm.resources
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Properties.Resources.resources
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.csproj.GenerateResource.Cache
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\RdlCompile.cache
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\RdlCompile.compiled
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.exe
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.pdb
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.exe
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\log4net.dll
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\ZDPress.Dal.dll
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\ZDPress.Opc.dll
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\OPCdotNETLib.dll
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\ZDPress.Opc.pdb
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\log4net.xml
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\OPCdotNETLib.pdb
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.csprojResolveAssemblyReference.cache
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Controls.PagingUserControl.resources
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.ChartForm.resources
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.IdentifierPressureForm.resources
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationListForm.resources
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationSelectForm1.resources
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.FunctionSelectForm.resources
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.MainForm.resources
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.OperationSelectForm2.resources
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Views.ParametersForm.resources
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Reports.ReportForm.resources
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.ShellForm.resources
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.Properties.Resources.resources
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.csproj.GenerateResource.Cache
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\RdlCompile.cache
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\RdlCompile.compiled
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.exe
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\obj\x86\Debug\ZDPress.UI.pdb
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\Reports\ZDPress.rdlc
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.exe.config
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\ZDPress.UI.pdb
+C:\prg\ZDPressNew\ZDPressNew\ZDPress\bin\Debug\ZDPress.Dal.pdb

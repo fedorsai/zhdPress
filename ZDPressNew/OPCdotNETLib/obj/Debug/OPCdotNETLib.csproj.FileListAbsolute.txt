@@ -1,0 +1,54 @@
+C:\Users\fedor\Downloads\opcdotnet_src\OPCdotNETLib\bin\Debug\OPCdotNETLib.dll
+C:\Users\fedor\Downloads\opcdotnet_src\OPCdotNETLib\bin\Debug\OPCdotNETLib.pdb
+C:\Users\fedor\Downloads\opcdotnet_src\OPCdotNETLib\obj\Debug\OPCdotNETLib.csprojResolveAssemblyReference.cache
+C:\Users\fedor\Downloads\opcdotnet_src\OPCdotNETLib\obj\Debug\OPCdotNETLib.dll
+C:\Users\fedor\Downloads\opcdotnet_src\OPCdotNETLib\obj\Debug\OPCdotNETLib.pdb
+C:\working\opcdotnetexampl\OPCdotNETLib\bin\Debug\OPCdotNETLib.dll
+C:\working\opcdotnetexampl\OPCdotNETLib\bin\Debug\OPCdotNETLib.pdb
+C:\working\opcdotnetexampl\OPCdotNETLib\obj\Debug\OPCdotNETLib.csprojResolveAssemblyReference.cache
+C:\working\opcdotnetexampl\OPCdotNETLib\obj\Debug\OPCdotNETLib.dll
+C:\working\opcdotnetexampl\OPCdotNETLib\obj\Debug\OPCdotNETLib.pdb
+C:\work\ZDPress\ZDPress\OPCdotNETLib\bin\Debug\OPCdotNETLib.dll
+C:\work\ZDPress\ZDPress\OPCdotNETLib\bin\Debug\OPCdotNETLib.pdb
+C:\work\ZDPress\ZDPress\OPCdotNETLib\obj\Debug\OPCdotNETLib.dll
+C:\work\ZDPress\ZDPress\OPCdotNETLib\obj\Debug\OPCdotNETLib.pdb
+C:\working\ZDPress\ZDPress\OPCdotNETLib\bin\Debug\OPCdotNETLib.dll
+C:\working\ZDPress\ZDPress\OPCdotNETLib\bin\Debug\OPCdotNETLib.pdb
+C:\working\ZDPress\ZDPress\OPCdotNETLib\obj\Debug\OPCdotNETLib.dll
+C:\working\ZDPress\ZDPress\OPCdotNETLib\obj\Debug\OPCdotNETLib.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\OPCdotNETLib\bin\Debug\OPCdotNETLib.dll
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\OPCdotNETLib\bin\Debug\OPCdotNETLib.pdb
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\OPCdotNETLib\obj\Debug\OPCdotNETLib.dll
+C:\Users\Фёдор\Desktop\ZDPress\ZDPress\OPCdotNETLib\obj\Debug\OPCdotNETLib.pdb
+F:\SHARE\ZDPress_new\ZDPress\OPCdotNETLib\bin\Debug\OPCdotNETLib.dll
+F:\SHARE\ZDPress_new\ZDPress\OPCdotNETLib\bin\Debug\OPCdotNETLib.pdb
+F:\SHARE\ZDPress_new\ZDPress\OPCdotNETLib\obj\Debug\OPCdotNETLib.dll
+F:\SHARE\ZDPress_new\ZDPress\OPCdotNETLib\obj\Debug\OPCdotNETLib.pdb
+C:\Users\Фёдор\Desktop\ZDPress\OPCdotNETLib\bin\Debug\OPCdotNETLib.dll
+C:\Users\Фёдор\Desktop\ZDPress\OPCdotNETLib\bin\Debug\OPCdotNETLib.pdb
+C:\Users\Фёдор\Desktop\ZDPress\OPCdotNETLib\obj\Debug\OPCdotNETLib.dll
+C:\Users\Фёдор\Desktop\ZDPress\OPCdotNETLib\obj\Debug\OPCdotNETLib.pdb
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\OPCdotNETLib\bin\Debug\OPCdotNETLib.dll
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\OPCdotNETLib\bin\Debug\OPCdotNETLib.pdb
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\OPCdotNETLib\obj\Debug\OPCdotNETLib.dll
+F:\SHARE\ZDPress_new\ZDPressNew\ZDPressNew\OPCdotNETLib\obj\Debug\OPCdotNETLib.pdb
+F:\SHARE\ZDPressNew (1)\ZDPressNew\OPCdotNETLib\bin\Debug\OPCdotNETLib.dll
+F:\SHARE\ZDPressNew (1)\ZDPressNew\OPCdotNETLib\bin\Debug\OPCdotNETLib.pdb
+F:\SHARE\ZDPressNew (1)\ZDPressNew\OPCdotNETLib\obj\Debug\OPCdotNETLib.csprojResolveAssemblyReference.cache
+F:\SHARE\ZDPressNew (1)\ZDPressNew\OPCdotNETLib\obj\Debug\OPCdotNETLib.dll
+F:\SHARE\ZDPressNew (1)\ZDPressNew\OPCdotNETLib\obj\Debug\OPCdotNETLib.pdb
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\OPCdotNETLib\bin\Debug\OPCdotNETLib.dll
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\OPCdotNETLib\bin\Debug\OPCdotNETLib.pdb
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\OPCdotNETLib\obj\Debug\OPCdotNETLib.csprojResolveAssemblyReference.cache
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\OPCdotNETLib\obj\Debug\OPCdotNETLib.dll
+C:\Users\Фёдор\Desktop\ZDPressNew (2)\ZDPressNew\OPCdotNETLib\obj\Debug\OPCdotNETLib.pdb
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\OPCdotNETLib\bin\Debug\OPCdotNETLib.dll
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\OPCdotNETLib\bin\Debug\OPCdotNETLib.pdb
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\OPCdotNETLib\obj\Debug\OPCdotNETLib.csprojResolveAssemblyReference.cache
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\OPCdotNETLib\obj\Debug\OPCdotNETLib.dll
+C:\Users\вкм\Desktop\ZDPressNew (2)\ZDPressNew\OPCdotNETLib\obj\Debug\OPCdotNETLib.pdb
+C:\prg\ZDPressNew\ZDPressNew\OPCdotNETLib\bin\Debug\OPCdotNETLib.dll
+C:\prg\ZDPressNew\ZDPressNew\OPCdotNETLib\bin\Debug\OPCdotNETLib.pdb
+C:\prg\ZDPressNew\ZDPressNew\OPCdotNETLib\obj\Debug\OPCdotNETLib.dll
+C:\prg\ZDPressNew\ZDPressNew\OPCdotNETLib\obj\Debug\OPCdotNETLib.pdb
+C:\prg\ZDPressNew\ZDPressNew\OPCdotNETLib\obj\Debug\OPCdotNETLib.csprojResolveAssemblyReference.cache

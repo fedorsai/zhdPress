@@ -1,0 +1,73 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using ZDPress.Core;
+using System.Data.SqlClient;
+using System.Configuration;
+using System.Data;
+
+namespace ZDPress.Dal
+{
+    public class ZDPressDal
+    {
+        public string ConnectionString
+        {
+            get
+            {
+                return ConfigurationManager.ConnectionStrings["ZSPress"].ConnectionString;
+            }
+        }
+      
+
+        public void StorePressDataItems(List<PressDataItem> pressDataItems) 
+        {
+            using (var connection = GetSqlConnection(ConnectionString))
+            {
+                connection.Open();
+                // Try to create the Command as early as possible with a valid Connection object
+                string commandString = "INSERT INTO [dbo].[PressData]([DispPress], [DlinaSopr], [PressOperationId])VALUES(@DispPress, @DlinaSopr);";
+                var command = new SqlCommand(commandString, connection);
+
+                // Then define a Transaction object with your Connection
+                var transaction = connection.BeginTransaction();
+                command.Transaction = transaction;
+
+                // Now iterate through your array
+                foreach (PressDataItem pressDataItem in pressDataItems)
+                {
+                    command.Parameters.Add("@DispPress", SqlDbType.Decimal).Value = pressDataItem.DispPress;
+                    command.Parameters.Add("@DlinaSopr", SqlDbType.Int).Value = pressDataItem.DlinaSopr;
+                    command.ExecuteNonQuery(); // Not executed at this point   
+                }
+
+
+                // And now execute it with the possibility to rollback all commands when it fails
+                try 
+                {
+                    transaction.Commit(); // Here the execution is committed to the DB
+                } 
+                catch (Exception)
+                {
+                    transaction.Rollback();
+                    throw;
+                }
+            }
+           
+        }
+
+
+        private SqlConnection GetSqlConnection(string connectionString)
+        {
+            return new SqlConnection(connectionString);
+        }
+
+        private void CloseConnection(SqlConnection connection) 
+        {
+            if (connection != null && connection.State == System.Data.ConnectionState.Open)
+            {
+                connection.Close();
+            }
+        }
+    }
+}

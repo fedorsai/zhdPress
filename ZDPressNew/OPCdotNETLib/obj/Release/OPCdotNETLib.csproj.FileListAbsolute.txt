@@ -1,0 +1,5 @@
+C:\prg\ZDPressNew\ZDPressNew\OPCdotNETLib\bin\Release\OPCdotNETLib.dll
+C:\prg\ZDPressNew\ZDPressNew\OPCdotNETLib\obj\Release\OPCdotNETLib.dll
+C:\prg\ZDPressNew_21.11.2017\ZDPressNew\OPCdotNETLib\bin\Release\OPCdotNETLib.dll
+C:\prg\ZDPressNew_21.11.2017\ZDPressNew\OPCdotNETLib\obj\Release\OPCdotNETLib.dll
+C:\prg\ZDPressNew_21.11.2017\ZDPressNew\OPCdotNETLib\obj\Release\OPCdotNETLib.csprojResolveAssemblyReference.cache

@@ -1,0 +1,65 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ZDPress.Core
+{
+    public class PressDataItem
+    {
+        public int ID { get; set; }
+
+        /// <summary>
+        /// давление, по которому строится график
+        /// </summary>
+        public decimal DispPress { get; set; }
+
+        /// <summary>
+        /// расстояние, по которому строится график
+        /// </summary>
+        public int DlinaSopr { get; set; }
+
+        /// <summary>
+        /// Начало прессования
+        /// </summary>
+        public bool ShowGraph { get; set; }
+
+        /// <summary>
+        /// exception
+        /// </summary>
+        public Exception Exception { get; set; }
+        /// <summary>
+        /// Время в миллисекундах потраченное на итерацию.
+        /// </summary>
+        public int SpentTimeToIteration { get; set; }
+
+        public static PressDataItem ConvertToPressDataItem(List<OpcParameter> parameters)
+        {
+            PressDataItem item = new PressDataItem();            
+            parameters.ForEach(p => SetParameterPreassDataItem(p, item));
+            return item;
+        }
+
+        private static void SetParameterPreassDataItem(OpcParameter parameter, PressDataItem item)
+        {
+            if (parameter == null)
+            {
+                return;
+            }
+            dynamic val = Convert.ChangeType(parameter.ParameterValue, parameter.ParameterType);
+
+            if (parameter.ParameterName == OpcConsts.DispPress)
+            {
+                item.DispPress = val;
+            }
+            if (parameter.ParameterName == OpcConsts.DlinaSopr)
+            {
+                item.DlinaSopr = val;
+            }
+            if (parameter.ParameterName == OpcConsts.ShowGraph)
+            {
+                item.ShowGraph = val;
+            }            
+        }
+    }
+}

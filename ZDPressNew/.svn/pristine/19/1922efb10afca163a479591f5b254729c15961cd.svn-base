@@ -1,0 +1,67 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using ZDPress.UI.UICore;
+using System.Windows.Forms.DataVisualization.Charting;
+
+namespace ZDPress.UI.Forms
+{
+    public partial class ChartForm : Form
+    {
+        public ChartForm()
+        {
+            InitializeComponent();
+            //CustomizeChart();
+            //AddFakePointsToChart();
+        }
+        private void CustomizeChart()
+        {
+            this.zdChart1.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dot;
+            this.zdChart1.ChartAreas[0].AxisY.MajorGrid.LineDashStyle = ChartDashStyle.Dot;
+
+            this.zdChart1.ChartAreas[0].AxisX.Maximum = 240;
+            this.zdChart1.ChartAreas[0].AxisX.Minimum = 0;
+
+            this.zdChart1.ChartAreas[0].AxisX.Interval = 10;
+            this.zdChart1.ChartAreas[0].AxisY.Interval = 1;
+
+            this.zdChart1.ChartAreas[0].AxisY.Maximum = 100;
+            this.zdChart1.ChartAreas[0].AxisY.Minimum = 0;
+
+            this.zdChart1.ChartAreas[0].AxisX.IsMarginVisible = false;
+            this.zdChart1.ChartAreas[0].AxisY.IsMarginVisible = false;
+        }
+
+        private void AddFakePointsToChart()
+        {
+            this.zdChart1.Series[0].Points.AddXY(10, 30);
+            this.zdChart1.Series[0].Points.AddXY(20, 40);
+            this.zdChart1.Series[0].Points.AddXY(30, 30);
+            this.zdChart1.Series[0].Points.AddXY(40, 60);
+            this.zdChart1.Series[0].Points.AddXY(220, 95);
+            this.zdChart1.Series[0].Points.AddXY(240, 50);
+        }
+
+
+        private void zdButton3_Click(object sender, EventArgs e)
+        {
+            OnBackClick();
+        }
+
+        private void OnBackClick()
+        {
+            HideCurrent();
+        }
+
+        private static void HideCurrent()
+        {
+            Form form = UIHelper.GetFormSingle(typeof(ChartForm));
+            form.Hide();
+        }
+    }
+}

@@ -1,0 +1,11 @@
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Core.UnitTests\bin\Debug\ZDPress.Core.UnitTests.dll
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Core.UnitTests\bin\Debug\ZDPress.Core.UnitTests.pdb
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Core.UnitTests\bin\Debug\ZDPress.Core.dll
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Core.UnitTests\bin\Debug\log4net.dll
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Core.UnitTests\bin\Debug\OPCdotNETLib.dll
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Core.UnitTests\bin\Debug\ZDPress.Core.pdb
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Core.UnitTests\bin\Debug\log4net.xml
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Core.UnitTests\bin\Debug\OPCdotNETLib.pdb
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Core.UnitTests\obj\Debug\ZDPress.Core.UnitTests.csprojResolveAssemblyReference.cache
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Core.UnitTests\obj\Debug\ZDPress.Core.UnitTests.dll
+F:\SHARE\ZDPress_new\ZDPress\ZDPress.Core.UnitTests\obj\Debug\ZDPress.Core.UnitTests.pdb

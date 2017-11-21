@@ -1,0 +1,105 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using ZDPress.UI.UICore;
+using System.Windows.Forms.DataVisualization.Charting;
+using ZDPress.UI.Reports;
+using System.IO;
+
+namespace ZDPress.UI.Forms
+{
+    public partial class ChartForm : Form
+    {
+        public ChartForm()
+        {
+            InitializeComponent();
+            CustomizeChart();
+            AddFakePointsToChart();
+        }
+        private void CustomizeChart()
+        {
+            this.zdChart2.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dot;
+            this.zdChart2.ChartAreas[0].AxisY.MajorGrid.LineDashStyle = ChartDashStyle.Dot;
+
+            this.zdChart2.ChartAreas[0].AxisX.Maximum = 240;
+            this.zdChart2.ChartAreas[0].AxisX.Minimum = 0;
+            this.zdChart2.ChartAreas[0].AxisX.Title = "длина пресования";
+            this.zdChart2.ChartAreas[0].AxisX.TextOrientation = TextOrientation.Horizontal;
+
+
+            this.zdChart2.ChartAreas[0].AxisX.Interval = 10;
+            this.zdChart2.ChartAreas[0].AxisY.Interval = 1;
+
+
+            this.zdChart2.ChartAreas[0].AxisY.Maximum = 64;
+            this.zdChart2.ChartAreas[0].AxisY.Minimum = 0;
+            this.zdChart2.ChartAreas[0].AxisY.Interval = 4;
+            this.zdChart2.ChartAreas[0].AxisY.LabelStyle.Interval = 8;
+            this.zdChart2.ChartAreas[0].AxisY.LabelStyle.IntervalType = DateTimeIntervalType.Number;
+            this.zdChart2.ChartAreas[0].AxisY.Title = "т.с.";
+            this.zdChart2.ChartAreas[0].AxisY.TextOrientation = TextOrientation.Horizontal;
+
+            this.zdChart2.ChartAreas[0].AxisX.IsMarginVisible = false;
+            this.zdChart2.ChartAreas[0].AxisY.IsMarginVisible = false;
+
+            zdChart2.ChartAreas[0].AxisY2.Enabled = AxisEnabled.True;
+            this.zdChart2.ChartAreas[0].AxisY2.MajorGrid.Enabled = false;// LineDashStyle = ChartDashStyle.Dot;
+            zdChart2.ChartAreas[0].AxisY2.IntervalAutoMode = IntervalAutoMode.VariableCount;
+            zdChart2.ChartAreas[0].AxisY2.IntervalType = DateTimeIntervalType.Number;
+
+            zdChart2.ChartAreas[0].AxisY2.IsMarginVisible = true;
+            zdChart2.ChartAreas[0].AxisY2.Maximum = 200;
+            this.zdChart2.ChartAreas[0].AxisY2.Interval = 10;
+            this.zdChart2.ChartAreas[0].AxisY2.LabelStyle.Interval = 20;
+            this.zdChart2.ChartAreas[0].AxisY2.Title = "кг/см2";
+            this.zdChart2.ChartAreas[0].AxisY2.TextOrientation = TextOrientation.Horizontal;
+        }
+
+        private void AddFakePointsToChart()
+        {
+            this.zdChart2.Series[0].Points.AddXY(10, 10);
+            this.zdChart2.Series[0].Points.AddXY(20, 40.5m);
+            this.zdChart2.Series[0].Points.AddXY(30, 60.1m);
+            this.zdChart2.Series[0].Points.AddXY(40, 25);
+            this.zdChart2.Series[0].Points.AddXY(100, 60);
+            this.zdChart2.Series[0].Points.AddXY(110, 50);
+        }
+
+
+       
+
+        private void OnBackClick()
+        {
+            HideCurrent();
+        }
+
+        private static void HideCurrent()
+        {
+            Form form = UIHelper.GetFormSingle(typeof(ChartForm));
+            form.Hide();
+        }
+
+        private void zdButton5_Click(object sender, EventArgs e)
+        {
+            OnBackClick();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ReportForm reportForm = new ReportForm();
+            byte[] bytes;
+            using (var chartimage = new MemoryStream())
+            {
+                zdChart2.SaveImage(chartimage, ChartImageFormat.Png);
+                bytes = chartimage.GetBuffer();
+            }
+            reportForm.ImageAsBytes = bytes; 
+            reportForm.ShowDialog();
+        }
+    }
+}

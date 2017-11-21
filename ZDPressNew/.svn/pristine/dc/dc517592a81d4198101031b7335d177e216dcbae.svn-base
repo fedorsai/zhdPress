@@ -1,0 +1,179 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Collections;
+
+namespace ZDPress.Core
+{
+    /// <summary>
+    /// Опрашивает ОПЦ сервер с заданным промежутком, 
+    /// результат опроса возвращает в callback.
+    /// </summary>
+    public class OpcBackgroundProcessor
+    {
+        private bool _timerIsRunning = false;
+        private Timer _timer;
+        private OpcServerManager _opcServerManager;
+        private OpcServerDescription _opcServerDescription;
+        private TreeNode<string> _opcNode;
+        private ArrayList _parameters;
+        public Action<string> OnServerShutdownAction;
+        public Action<PressDataItem> OnReceivedDataAction;
+        public int TIME_INTERVAL_IN_MILLISECONDS { get; set; }
+
+        public OpcBackgroundProcessor()
+        {
+            Logger.InitLogger();
+            TIME_INTERVAL_IN_MILLISECONDS = 500; //0,5 sec
+        }
+
+        /// <summary>
+        /// Вызвать callback и параметром отдать данные с OPC сервера.
+        /// </summary>
+        /// <param name="pressDataItem"></param>
+        private void OnReceivedData(PressDataItem pressDataItem)
+        {
+            if (OnReceivedDataAction != null)
+            {
+                OnReceivedDataAction(pressDataItem);
+            }
+        }
+        
+        private void OnServerShutdown(string errorText)
+        {
+            if (OnServerShutdownAction != null)
+            {
+                OnServerShutdownAction(errorText);
+            }
+        }
+
+       
+
+        /// <summary>
+        /// Запустить таймер.
+        /// </summary>
+        public void TimerStart()
+        {
+            _timer.Change(TIME_INTERVAL_IN_MILLISECONDS, Timeout.Infinite);
+            _timerIsRunning = true;
+        }
+
+        /// <summary>
+        /// Остановить таймер.
+        /// </summary>
+        public void TimerStop()
+        {
+            _timer.Change(Timeout.Infinite, Timeout.Infinite);
+            _timerIsRunning = false;
+        }
+
+        public bool TimerIsRunning
+        {
+            get
+            {
+                return _timerIsRunning;
+            }
+        }
+
+
+        public void OpcServerClose()
+        {
+            if (_opcServerManager != null)
+            {
+                _opcServerManager.Close();
+            }
+        }
+
+
+        private List<OpcParameter> ProcessParameters(ArrayList parameters)
+        {
+            return _opcServerManager.ProcessOpcNodeParams(parameters);
+        }
+
+
+        private void OnTimerTick(object state)
+        {
+            try
+            {
+                DateTime now = DateTime.Now;
+                int spendToWork = 0;
+
+                //TODO: с этим все зависает...
+                //foreach (var item in _parameters)
+                //{
+                //    _opcServerManager.ViewItem(item.ToString());
+                //}
+
+                
+                if (_parameters == null || _parameters.Count == 0)
+                {
+                    string error = "Не удалось получить описание параметров для ноды " + _opcNode.FullPath;
+                    TimerStop();
+                    OnReceivedData(new PressDataItem() { Exception = new Exception(error) });
+                    return;
+                }
+
+                //send to opc for getting values
+                List<OpcParameter> parameters = ProcessParameters(_parameters);
+                PressDataItem pressDataItem = PressDataItem.ConvertToPressDataItem(parameters);
+                spendToWork = (int)(DateTime.Now - now).TotalMilliseconds;
+                pressDataItem.SpentTimeToIteration = spendToWork;
+                OnReceivedData(pressDataItem);
+                
+                int nextAfter = TIME_INTERVAL_IN_MILLISECONDS - spendToWork;
+                if (nextAfter < 0)
+                {
+                   Logger.Log.Info(string.Format("Spend time to process data more 500ms! ({0}ms) ", spendToWork)); 
+                   nextAfter = 0;
+                }
+                _timer.Change(nextAfter, Timeout.Infinite);
+            }
+            catch (Exception ex)
+            {
+                TimerStop();
+                OnReceivedData(new PressDataItem() { Exception = ex });
+            }
+        }
+
+
+
+
+        public string Init()
+        {
+            TimerCallback timeCB = new TimerCallback(OnTimerTick);
+
+            _timer = new System.Threading.Timer(timeCB, null, Timeout.Infinite, Timeout.Infinite);
+
+            _opcServerManager = new OpcServerManager();
+
+            List<OpcServerDescription> servers = _opcServerManager.SelectServer();
+            if (!servers.Any())
+            {
+                return "Не найден OPC сервер";
+            }
+            _opcServerDescription = servers.First();// select firt server name
+            _opcServerManager.DoInit(_opcServerDescription);
+            if (!_opcServerManager.OpcNamespacesTree.Children.Any())
+            {
+                return "Не найден ни один узел OPC сервера";
+            }
+            _opcNode = _opcServerManager.OpcNamespacesTree.Children.First();// select firt child
+
+            _parameters = _opcServerManager.BrowseToNodeInOpc(_opcNode.FullPath);
+
+            if (_parameters == null || _parameters.Count == 0)
+            {
+                return "Не найден ни один параметр";
+            }
+
+            _opcServerManager.OnServerShutdown += (reason) =>
+            {
+                OnServerShutdown(reason);
+            };
+
+            return null;
+        }
+    }
+}

@@ -1,0 +1,64 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using ZDPress.UI.UICore;
+
+namespace ZDPress.UI.Forms
+{
+    public partial class FunctionSelectForm : Form
+    {
+        public FunctionSelectForm()
+        {
+            InitializeComponent();
+        }
+
+        private void zdButton3_Click(object sender, EventArgs e)
+        {
+            OnBackClick();
+        }
+
+        private void OnBackClick()
+        {
+            HideCurrent();           
+        }
+
+        private static void HideCurrent()
+        {
+            Form form = UIHelper.GetFormSingle(typeof(FunctionSelectForm));
+            form.Hide();
+        }
+
+       
+
+        private void zdButton1_Click(object sender, EventArgs e)
+        {
+            //Выбор прессования колес и переход на экран выбора операции 
+            OnWheelClick();
+        }
+
+        private void OnWheelClick()
+        {
+            Form mdiParent = UIHelper.GetMdiContainer(this);
+            Form form = UIHelper.GetFormSingle(typeof(OperationSelectForm1));
+            UIHelper.ShowForm(form, mdiParent);
+        }
+
+        private void zdButton2_Click(object sender, EventArgs e)
+        {
+            // Выбор прессования тормозных дисков и переход на экран выбора операции 
+            OnBreakDiskClick();
+        }
+
+        private void OnBreakDiskClick()
+        {
+            Form mdiParent = UIHelper.GetMdiContainer(this);
+            Form form = UIHelper.GetFormSingle(typeof(OperationSelectForm2));
+            UIHelper.ShowForm(form, mdiParent);
+        }
+    }
+}

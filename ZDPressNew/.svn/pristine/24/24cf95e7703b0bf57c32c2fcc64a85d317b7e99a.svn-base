@@ -1,0 +1,172 @@
+﻿namespace ZDPress.UI.Forms
+{
+    partial class ParametersForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.tableLayoutPanelMain = new System.Windows.Forms.TableLayoutPanel();
+            this.zdLabel1 = new ZDPress.UI.Controls.ZDLabel();
+            this.zdLabel2 = new ZDPress.UI.Controls.ZDLabel();
+            this.zdLabel3 = new ZDPress.UI.Controls.ZDLabel();
+            this.zdLabel4 = new ZDPress.UI.Controls.ZDLabel();
+            this.zdLabel5 = new ZDPress.UI.Controls.ZDLabel();
+            this.zdLabel6 = new ZDPress.UI.Controls.ZDLabel();
+            this.zdButton1 = new ZDPress.UI.Controls.ZDButton();
+            this.tableLayoutPanelMain.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // tableLayoutPanelMain
+            // 
+            this.tableLayoutPanelMain.ColumnCount = 2;
+            this.tableLayoutPanelMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanelMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanelMain.Controls.Add(this.zdLabel1, 0, 0);
+            this.tableLayoutPanelMain.Controls.Add(this.zdLabel2, 0, 1);
+            this.tableLayoutPanelMain.Controls.Add(this.zdLabel3, 0, 2);
+            this.tableLayoutPanelMain.Controls.Add(this.zdLabel4, 0, 3);
+            this.tableLayoutPanelMain.Controls.Add(this.zdLabel5, 0, 4);
+            this.tableLayoutPanelMain.Controls.Add(this.zdLabel6, 0, 5);
+            this.tableLayoutPanelMain.Controls.Add(this.zdButton1, 1, 0);
+            this.tableLayoutPanelMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanelMain.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanelMain.Name = "tableLayoutPanelMain";
+            this.tableLayoutPanelMain.RowCount = 6;
+            this.tableLayoutPanelMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanelMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanelMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanelMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanelMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanelMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanelMain.Size = new System.Drawing.Size(505, 436);
+            this.tableLayoutPanelMain.TabIndex = 0;
+            // 
+            // zdLabel1
+            // 
+            this.zdLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.zdLabel1.AutoSize = true;
+            this.zdLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.zdLabel1.Location = new System.Drawing.Point(3, 25);
+            this.zdLabel1.Name = "zdLabel1";
+            this.zdLabel1.Size = new System.Drawing.Size(246, 22);
+            this.zdLabel1.TabIndex = 0;
+            this.zdLabel1.Text = "Параметры";
+            // 
+            // zdLabel2
+            // 
+            this.zdLabel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.zdLabel2.AutoSize = true;
+            this.zdLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.zdLabel2.Location = new System.Drawing.Point(3, 97);
+            this.zdLabel2.Name = "zdLabel2";
+            this.zdLabel2.Size = new System.Drawing.Size(246, 22);
+            this.zdLabel2.TabIndex = 1;
+            this.zdLabel2.Text = "Упор плунжера:";
+            // 
+            // zdLabel3
+            // 
+            this.zdLabel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.zdLabel3.AutoSize = true;
+            this.zdLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.zdLabel3.Location = new System.Drawing.Point(3, 169);
+            this.zdLabel3.Name = "zdLabel3";
+            this.zdLabel3.Size = new System.Drawing.Size(246, 22);
+            this.zdLabel3.TabIndex = 2;
+            this.zdLabel3.Text = "Упор траверсы:";
+            // 
+            // zdLabel4
+            // 
+            this.zdLabel4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.zdLabel4.AutoSize = true;
+            this.zdLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.zdLabel4.Location = new System.Drawing.Point(3, 241);
+            this.zdLabel4.Name = "zdLabel4";
+            this.zdLabel4.Size = new System.Drawing.Size(246, 22);
+            this.zdLabel4.TabIndex = 3;
+            this.zdLabel4.Text = "Инструмент:";
+            // 
+            // zdLabel5
+            // 
+            this.zdLabel5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.zdLabel5.AutoSize = true;
+            this.zdLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.zdLabel5.Location = new System.Drawing.Point(3, 313);
+            this.zdLabel5.Name = "zdLabel5";
+            this.zdLabel5.Size = new System.Drawing.Size(246, 22);
+            this.zdLabel5.TabIndex = 4;
+            this.zdLabel5.Text = "Посадка колеса:";
+            // 
+            // zdLabel6
+            // 
+            this.zdLabel6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.zdLabel6.AutoSize = true;
+            this.zdLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.zdLabel6.Location = new System.Drawing.Point(3, 387);
+            this.zdLabel6.Name = "zdLabel6";
+            this.zdLabel6.Size = new System.Drawing.Size(246, 22);
+            this.zdLabel6.TabIndex = 5;
+            this.zdLabel6.Text = "Скорость прессования:";
+            // 
+            // zdButton1
+            // 
+            this.zdButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.zdButton1.BackColor = System.Drawing.Color.AliceBlue;
+            this.zdButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.zdButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.zdButton1.Location = new System.Drawing.Point(255, 3);
+            this.zdButton1.MinimumSize = new System.Drawing.Size(0, 69);
+            this.zdButton1.Name = "zdButton1";
+            this.zdButton1.Size = new System.Drawing.Size(247, 69);
+            this.zdButton1.TabIndex = 6;
+            this.zdButton1.Text = "Назад";
+            this.zdButton1.UseVisualStyleBackColor = false;
+            this.zdButton1.Click += new System.EventHandler(this.zdButton1_Click);
+            // 
+            // ParametersForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(505, 436);
+            this.Controls.Add(this.tableLayoutPanelMain);
+            this.Name = "ParametersForm";
+            this.tableLayoutPanelMain.ResumeLayout(false);
+            this.tableLayoutPanelMain.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanelMain;
+        private Controls.ZDLabel zdLabel1;
+        private Controls.ZDLabel zdLabel2;
+        private Controls.ZDLabel zdLabel3;
+        private Controls.ZDLabel zdLabel4;
+        private Controls.ZDLabel zdLabel5;
+        private Controls.ZDLabel zdLabel6;
+        private Controls.ZDButton zdButton1;
+    }
+}

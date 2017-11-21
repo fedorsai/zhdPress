@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ZDPress.Core.TestsConsole
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            OpcServerReadDataTest();
+            Console.ReadKey();
+        }
+
+        private static void OpcServerReadDataTest()
+        {
+            OpcBackgroundProcessor processor = new OpcBackgroundProcessor();
+            var errorText = processor.Init();
+            if (errorText != null)
+            {
+                throw new Exception(errorText);                
+            }
+            processor.OnReceivedDataAction += (data) =>
+            {
+                Console.WriteLine(string.Format("Data received DispPress:{0} DlinaSopr:{1} ShowGraph:{2} SpentTimeToIteration:{3}", data.DispPress, data.DlinaSopr, data.ShowGraph, data.SpentTimeToIteration));
+            };
+            processor.TimerStart();
+        }
+    }
+}

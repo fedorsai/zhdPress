@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using ZDPress.UI.UICore;
+
+namespace ZDPress.UI.Forms
+{
+    public partial class ParametersForm : Form
+    {
+        public ParametersForm()
+        {
+            InitializeComponent();
+        }
+
+        private void zdButton1_Click(object sender, EventArgs e)
+        {
+            OnBackClick();
+        }
+
+        private void OnBackClick()
+        {
+            Form form = UIHelper.GetFormSingle(typeof(ParametersForm));
+            form.Hide();
+        }
+    }
+}

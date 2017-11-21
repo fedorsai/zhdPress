@@ -1,0 +1,91 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using ZDPress.UI.UICore;
+
+namespace ZDPress.UI.Forms
+{
+    public partial class OperationSelectForm2 : Form
+    {
+        public OperationSelectForm2()
+        {
+            InitializeComponent();
+        }
+
+        private void zdButton1_Click(object sender, EventArgs e)
+        {
+            OnBackClick();
+        }
+
+        private void OnBackClick()
+        {
+            Form form = UIHelper.GetFormSingle(typeof(OperationSelectForm2));
+            form.Hide();
+        }
+
+        private void zdButton2_Click(object sender, EventArgs e)
+        {
+            MiddleBrakeDiskClick();
+        }
+
+        private void MiddleBrakeDiskClick()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void zdButton4_Click(object sender, EventArgs e)
+        {
+            LeftBrakeDiskClick();
+        }
+
+        private void LeftBrakeDiskClick()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void zdButton6_Click(object sender, EventArgs e)
+        {
+            RightBrakeDiskClick();
+        }
+
+        private void RightBrakeDiskClick()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void zdButton3_Click(object sender, EventArgs e)
+        {
+            OnMeasureAxizClick();
+        }
+
+        private void OnMeasureAxizClick()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void zdButton5_Click(object sender, EventArgs e)
+        {
+            OnChartClick();
+        }
+
+        private void OnChartClick()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void zdButton7_Click(object sender, EventArgs e)
+        {
+            OnParamatersClick();
+        }
+
+        private void OnParamatersClick()
+        {
+            throw new NotImplementedException();
+        }
+    }
+}

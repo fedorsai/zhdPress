@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using ZDPress.Core;
+
+namespace ZDPress.Dal.TestsConsole
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<PressDataItem> pressDataItems = new List<PressDataItem>();
+            pressDataItems.Add(new PressDataItem() {DispPress = 12.3m, DlinaSopr = 1 });
+            StorePressDataItemToDbTest(pressDataItems);
+        }
+
+        private static void StorePressDataItemToDbTest(List<PressDataItem> pressDataItems)
+        {
+            new ZDPressDal().StorePressDataItems(pressDataItems);
+        }
+    }
+}

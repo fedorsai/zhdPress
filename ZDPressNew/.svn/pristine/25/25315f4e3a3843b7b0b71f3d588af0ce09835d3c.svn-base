@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ZDPress.Core
+{
+    public static class OpcConsts
+    {
+        /// <summary>
+        /// давление, по которому строится график
+        /// </summary>
+        public static string DispPress = "DispPress";
+        /// <summary>
+        /// расстояние, по которому строится график
+        /// </summary>
+        public static string DlinaSopr = "dlina_sopr";
+        /// <summary>
+        /// Начало прессования
+        /// </summary>
+        public static string ShowGraph = "ShowGraph";
+    }
+}

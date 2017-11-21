@@ -1,0 +1,61 @@
+﻿namespace ZDPress.UI.Forms
+{
+    partial class IdentifierPressureForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.zdLabel1 = new ZDPress.UI.Controls.ZDLabel();
+            this.SuspendLayout();
+            // 
+            // zdLabel1
+            // 
+            this.zdLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.zdLabel1.AutoSize = true;
+            this.zdLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.zdLabel1.Location = new System.Drawing.Point(23, 13);
+            this.zdLabel1.Name = "zdLabel1";
+            this.zdLabel1.Size = new System.Drawing.Size(180, 22);
+            this.zdLabel1.TabIndex = 0;
+            this.zdLabel1.Text = "Индикация двления";
+            // 
+            // IdentifierPressureForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.zdLabel1);
+            this.Name = "IdentifierPressureForm";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private Controls.ZDLabel zdLabel1;
+    }
+}

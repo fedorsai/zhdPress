@@ -1,0 +1,84 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using ZDPress.UI.Forms;
+
+namespace ZDPress.UI.UICore
+{
+    public static class UIHelper
+    {
+        #region Child Forms
+        private static List<Form> _childForms = new List<Form>();
+        public static Form GetFormSingle(Type formType)
+        {
+            Form form = _childForms.FirstOrDefault(c => c.GetType() == formType);
+            if (form == null)
+            {
+                form = (Form)Activator.CreateInstance(formType);
+                _childForms.Add(form);
+            }
+            return form;
+        }
+
+        /// <summary>
+        /// Покажет форму.
+        /// </summary>
+        /// <param name="formName">Форма которую показать.</param>
+        /// <param name="parent">Mdi родитель.</param>
+        public static void ShowForm(Form form, Form mdiParent)
+        {
+            if (mdiParent != null)
+            {
+                form.MdiParent = mdiParent;                
+            }
+            form.MdiParent = mdiParent;
+            form.MinimizeBox = false;
+            form.MaximizeBox = false;
+            form.ControlBox = false;
+            form.Dock = DockStyle.Fill;
+            form.FormBorderStyle = FormBorderStyle.None;
+            form.Show();
+        }
+       
+
+        public static void CloseForm(Type formType)
+        {
+            Form form = GetFormSingle(formType);
+            _childForms.Remove(form);
+            form.Close();
+        }
+
+        public static Form GetMdiContainer(Form form)
+        {
+            if (form.IsMdiContainer)
+            {
+                return form;
+            }
+            else
+            {
+                Form mdiContainer = form;
+                while (mdiContainer.MdiParent != null)
+                {
+                    mdiContainer = mdiContainer.MdiParent;
+                }
+                return mdiContainer.IsMdiContainer ? mdiContainer : null;
+            }
+        }
+        #endregion
+
+        public static string ExtractExceptionMessage(Exception exception)
+        {
+            StringBuilder sb = new StringBuilder();
+            Exception ex = exception;
+            sb.AppendLine(ex.Message);
+            while (ex.InnerException != null)
+            {
+                sb.AppendLine(ex.InnerException.Message);
+                ex = ex.InnerException;
+            }
+            return sb.ToString();
+        }
+    }
+}

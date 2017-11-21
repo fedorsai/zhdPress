@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ZDPress.Core
+{
+    public class OpcParameter
+    {
+        public string ParameterName { get; set; }
+        public object ParameterValue { get; set; }
+        public Type ParameterType { get; set; }
+    }
+}

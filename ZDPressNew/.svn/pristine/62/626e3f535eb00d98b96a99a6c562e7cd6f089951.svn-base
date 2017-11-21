@@ -1,0 +1,472 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using OPC.Data;
+using OPC.Data.Interface;
+using System.Runtime.InteropServices;
+using System.Diagnostics;
+using OPC.Common;
+using System.Collections;
+using System.Threading;
+
+namespace ZDPress.Core
+{
+    public class OpcServerManager
+    {
+        private OpcServer _theSrv = null;			// root OPCDA object
+        private OpcGroup _theGrp = null;			// the only one OPC-Group in this example
+        private int _itmHandleClient;			// 0 if no current item selected
+        private int _itmHandleServer;
+        private string _rootname = "Root";			// string of Tree root (dummy)
+        public TreeNode<string> OpcNamespacesTree { get; set; }
+        public bool opc_connected = false;		// flag if connected
+        public OPCACCESSRIGHTS _itmAccessRights;
+        public TypeCode _itmTypeCode;
+        public Action<string> OnServerShutdown;
+        private void CallOnServerShutdown(string reason)
+        {
+            if (OnServerShutdown != null)
+            {
+                OnServerShutdown(reason);
+            }
+        }
+
+        public List<OpcServerDescription> SelectServer()
+        {
+
+            return new SelServer().GetListAllServers();
+        }
+
+        public TypeCode VT2TypeCode(VarEnum vevt)
+        {
+            switch (vevt)
+            {
+                case VarEnum.VT_I1:
+                    return TypeCode.SByte;
+                case VarEnum.VT_I2:
+                    return TypeCode.Int16;
+                case VarEnum.VT_I4:
+                    return TypeCode.Int32;
+                case VarEnum.VT_I8:
+                    return TypeCode.Int64;
+
+                case VarEnum.VT_UI1:
+                    return TypeCode.Byte;
+                case VarEnum.VT_UI2:
+                    return TypeCode.UInt16;
+                case VarEnum.VT_UI4:
+                    return TypeCode.UInt32;
+                case VarEnum.VT_UI8:
+                    return TypeCode.UInt64;
+
+                case VarEnum.VT_R4:
+                    return TypeCode.Single;
+                case VarEnum.VT_R8:
+                    return TypeCode.Double;
+
+                case VarEnum.VT_BSTR:
+                    return TypeCode.String;
+                case VarEnum.VT_BOOL:
+                    return TypeCode.Boolean;
+                case VarEnum.VT_DATE:
+                    return TypeCode.DateTime;
+                case VarEnum.VT_DECIMAL:
+                    return TypeCode.Decimal;
+                case VarEnum.VT_CY:				// not supported
+                    return TypeCode.Double;
+            }
+
+            return TypeCode.Object;
+        }
+
+        public void Close()
+        {
+            if (!opc_connected)
+                return;
+
+            if (_theGrp != null)
+            {
+                _theGrp.DataChanged -= new DataChangeEventHandler(this.theGrp_DataChange);
+                _theGrp.WriteCompleted -= new WriteCompleteEventHandler(this.theGrp_WriteComplete);
+                RemoveItem();
+                _theGrp.Remove(false);
+                _theGrp = null;
+            }
+
+            if (_theSrv != null)
+            {
+                var dd = System.Threading.Thread.CurrentThread.ManagedThreadId;
+                _theSrv.Disconnect();				// should clean up
+                _theSrv = null;
+            }
+
+            opc_connected = false;
+        }
+
+
+        public bool DoInit(OpcServerDescription opcServerDescription)
+        {
+            try
+            {
+                _theSrv = new OpcServer();
+                OpcNamespacesTree = new TreeNode<string>(_rootname);
+
+                // ---------------
+                DoConnectResult connectResult = DoConnect(opcServerDescription.ProgId);
+
+                if (!connectResult.IsSuccess)
+                {
+                    return false;
+                }
+                opc_connected = true;
+
+                // add event handler for server shutdown
+                _theSrv.ShutdownRequested += (e, args) =>
+                {
+                    CallOnServerShutdown(args.shutdownReason);
+                };
+
+                // precreate the only OPC group in this example
+                if (!CreateGroup())
+                {
+                    return false;
+                }
+
+                // browse the namespace of the OPC-server
+                if (!DoBrowse())
+                {
+                    return false;
+                }
+
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+            return true;
+        }
+
+
+        private DoConnectResult DoConnect(string progid)
+        {
+            DoConnectResult result = new DoConnectResult();
+            result.IsSuccess = false;
+            try
+            {
+                _theSrv.Connect(progid);
+                Thread.Sleep(100);
+                _theSrv.SetClientName("DirectOPC " + Process.GetCurrentProcess().Id);	// set my client name (exe+process no)
+
+                SERVERSTATUS sts;
+                _theSrv.GetStatus(out sts);
+
+                // get infos about OPC server
+                StringBuilder sb = new StringBuilder(sts.szVendorInfo, 200);
+                sb.AppendFormat(" ver:{0}.{1}.{2}", sts.wMajorVersion, sts.wMinorVersion, sts.wBuildNumber);
+                result.ServerInfo = sb.ToString();
+
+                // set status to show server state
+                result.SbpTimeStart = DateTime.FromFileTime(sts.ftStartTime);
+                result.SbpStatus = sts.eServerState.ToString();
+                result.IsSuccess = true;
+                return result;
+            }
+            catch (COMException ex)
+            {
+                result.ErrorText = ex.Message;
+                return result;
+            }
+        }
+
+
+        private bool CreateGroup()
+        {
+            try
+            {
+                // add our only working group
+                _theGrp = _theSrv.AddGroup("OPCdotNET-Group", true, 500);
+
+
+                OPCItemDef[] i = new OPCItemDef[4];
+                i[0] = new OPCItemDef();
+                i[1] = new OPCItemDef();
+                i[2] = new OPCItemDef();
+                i[3] = new OPCItemDef();
+               
+
+                i[1].ItemID = OpcConsts.ShowGraph;
+                i[2].ItemID = OpcConsts.DispPress;
+                i[3].ItemID = OpcConsts.DlinaSopr;
+          
+
+                OPCItemResult[] resI = new OPCItemResult[4];
+                _theGrp.AddItems(i, out resI);
+
+                // add event handler for data changes
+                _theGrp.DataChanged += new DataChangeEventHandler(this.theGrp_DataChange);
+                _theGrp.WriteCompleted += new WriteCompleteEventHandler(this.theGrp_WriteComplete);
+            }
+            catch (COMException e)
+            {
+                throw e;
+            }
+            return true;
+        }
+
+
+
+        // event handler: called if any item in group has changed values
+        protected void theGrp_DataChange(object sender, DataChangeEventArgs e)
+        {
+            Trace.WriteLine("theGrp_DataChange  id=" + e.transactionID.ToString() + " me=0x" + e.masterError.ToString("X"));
+
+            foreach (OPCItemState s in e.sts)
+            {
+                if (s.HandleClient != _itmHandleClient)		// only one client handle
+                    continue;
+
+                Trace.WriteLine("  item error=0x" + s.Error.ToString("X"));
+
+                if (HRESULTS.Succeeded(s.Error))
+                {
+                    Trace.WriteLine("  val=" + s.DataValue.ToString());
+
+                    //txtItemValue.Text	= s.DataValue.ToString();		// update screen
+                    //txtItemQual.Text	= OpcGroup.QualityToString( s.Quality );
+                    //txtItemTimeSt.Text	= DateTime.FromFileTime( s.TimeStamp ).ToString();
+                }
+                else
+                {
+                    //txtItemValue.Text = "ERROR 0x" + s.Error.ToString("X");
+                    //txtItemQual.Text = "error";
+                    //txtItemTimeSt.Text = "error";
+                }
+            }
+        }
+
+        // event handler: called if asynch write finished
+        protected void theGrp_WriteComplete(object sender, WriteCompleteEventArgs e)
+        {
+            string result;
+            foreach (OPCWriteResult w in e.res)
+            {
+                if (w.HandleClient != _itmHandleClient)		// only one client handle
+                    continue;
+
+                if (HRESULTS.Failed(w.Error))
+                    result = "ERROR 0x" + w.Error.ToString("X");
+                else
+                    result = "ok";
+            }
+        }
+
+
+        private bool DoBrowse()
+        {
+            try
+            {
+                OPCNAMESPACETYPE opcorgi = _theSrv.QueryOrganization();
+                // fill Tree with all
+                OpcNamespacesTree.Clear();
+                if (opcorgi == OPCNAMESPACETYPE.OPC_NS_HIERARCHIAL)
+                {
+                    _theSrv.ChangeBrowsePosition(OPCBROWSEDIRECTION.OPC_BROWSE_TO, "");	// to root
+                    RecurBrowse(OpcNamespacesTree, 1);
+                }
+            }
+            catch (COMException ex)
+            {
+                throw ex;
+            }
+            return true;
+        }
+
+
+        // recursively call the OPC namespace tree
+        private bool RecurBrowse(TreeNode<string> tnParent, int depth)
+        {
+            try
+            {
+                ArrayList lst;
+                _theSrv.Browse(OPCBROWSETYPE.OPC_BRANCH, out lst);
+
+                if (lst == null)
+                    return true;
+
+                if (lst.Count < 1)
+                    return true;
+
+                foreach (string s in lst)
+                {
+                    TreeNode<string> tnNext = new TreeNode<string>(s);
+                    _theSrv.ChangeBrowsePosition(OPCBROWSEDIRECTION.OPC_BROWSE_DOWN, s);
+                    RecurBrowse(tnNext, depth + 1);
+                    _theSrv.ChangeBrowsePosition(OPCBROWSEDIRECTION.OPC_BROWSE_UP, "");
+                    tnParent.AddChild(tnNext);
+                }
+            }
+            catch (COMException ex)
+            {
+                throw ex;
+            }
+            return true;
+        }
+
+
+        //private void treeOpcItems_AfterSelect(string )
+        public ArrayList BrowseToNodeInOpc(string nodeFullPath)
+        {
+            RemoveItem(); // remove item from group
+            try
+            {
+                _theSrv.ChangeBrowsePosition(OPCBROWSEDIRECTION.OPC_BROWSE_TO, "");	// to root                
+                if (nodeFullPath.Length > _rootname.Length)		// check if it's only the dummy root
+                {
+                    nodeFullPath = nodeFullPath.Substring(_rootname.Length + 1);
+                    string[] splitpath = nodeFullPath.Split(new char[] { '\t' });	// convert path-string to string-array (separator)
+
+                    foreach (string n in splitpath)
+                    {
+                        _theSrv.ChangeBrowsePosition(OPCBROWSEDIRECTION.OPC_BROWSE_DOWN, n);	// browse to node in OPC namespace
+                    }
+                }
+                // get all items at this node level
+                ArrayList lst;
+                _theSrv.Browse(OPCBROWSETYPE.OPC_LEAF, out lst);
+                return lst;
+            }
+            catch (Exception ex)
+            {
+                throw ex;// exceptions MUST be handled
+            }
+        }
+
+        public List<OpcParameter> ProcessOpcNodeParams(ArrayList lst)
+        {
+            List<OpcParameter> result = new List<OpcParameter>();
+            _theSrv.Browse(OPCBROWSETYPE.OPC_LEAF, out lst);
+            if (lst == null)
+                return result;
+            if (lst.Count < 1)
+                return result;
+
+            string[] istrs = new string[5];
+            OPCProperty[] props;
+            OPCPropertyData[] propdata;
+            int[] propertyIDs = new int[1];
+
+            // enum+add all item names to ListView
+            //string[] itemstrings = new string[2];
+            //перебор списка имён переменных
+            foreach (string item in lst)
+            {
+                OpcParameter parameterData = new OpcParameter();
+                parameterData.ParameterName = item;
+                //itemstrings[0] = item;
+                //получение списка свойств переменной
+                _theSrv.QueryAvailableProperties(item, out props);
+                if (props == null)
+                    continue;
+                // перебираем все свойства
+                foreach (OPCProperty p in props)
+                {
+                    // PropertyID == 2 - это свойство в котором хранится значение переменной
+                    if (p.PropertyID == 2)
+                    {
+                        propertyIDs[0] = p.PropertyID;
+                        //получение свойства
+                        _theSrv.GetItemProperties(item, propertyIDs, out propdata);
+                        parameterData.ParameterType = propdata[0].Data.GetType();
+                        parameterData.ParameterValue = propdata[0].Data;
+                    }
+                }
+
+                result.Add(parameterData);
+            }
+            return result;
+        }
+
+
+
+        public bool ViewItem(string opcid)
+        {
+            try
+            {
+
+                RemoveItem();		// first remove previous item if any
+
+                _itmHandleClient = 1234;
+                OPCItemDef[] aD = new OPCItemDef[1];
+                aD[0] = new OPCItemDef(opcid, true, _itmHandleClient, VarEnum.VT_EMPTY);
+                OPCItemResult[] arrRes;
+                _theGrp.AddItems(aD, out arrRes);
+                if (arrRes == null)
+                    return false;
+                if (arrRes[0].Error != HRESULTS.S_OK)
+                    return false;
+
+                //btnItemMore.Enabled = true;
+                _itmHandleServer = arrRes[0].HandleServer;
+                _itmAccessRights = arrRes[0].AccessRights;
+                _itmTypeCode = VT2TypeCode(arrRes[0].CanonicalDataType);
+
+
+                if ((_itmAccessRights & OPCACCESSRIGHTS.OPC_READABLE) != 0)
+                {
+                    int cancelID;
+                    _theGrp.Refresh2(OPCDATASOURCE.OPC_DS_DEVICE, 7788, out cancelID);
+                }
+                else
+                    //txtItemValue.Text = "no read access";
+
+                    if (_itmTypeCode != TypeCode.Object)				// Object=failed!
+                    {
+                        // check if write is premitted
+                        if ((_itmAccessRights & OPCACCESSRIGHTS.OPC_WRITEABLE) != 0)
+                        { }
+                        //btnItemWrite.Enabled = true;
+                    }
+            }
+            catch (COMException)
+            {
+                //MessageBox.Show(this, "AddItem OPC error!", "ViewItem", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+            return true;
+        }
+
+
+        // remove previous OPC item if any
+        private bool RemoveItem()
+        {
+            try
+            {
+                if (_itmHandleClient != 0)
+                {
+                    _itmHandleClient = 0;
+                    /*
+                    txtItemID.Text = "";		// clear screen texts
+                    txtItemValue.Text = "";
+                    txtItemDataType.Text = "";
+                    txtItemQual.Text = "";
+                    txtItemTimeSt.Text = "";
+                    txtItemSendValue.Text = "";
+                    txtItemWriteRes.Text = "";
+                    btnItemWrite.Enabled = false;
+                    btnItemMore.Enabled = false;
+                    */
+                    int[] serverhandles = new int[1] { _itmHandleServer };
+                    int[] remerrors;
+                    _theGrp.RemoveItems(serverhandles, out remerrors);
+                    _itmHandleServer = 0;
+                }
+            }
+            catch (COMException ex)
+            {
+                throw ex;
+            }
+            return true;
+        }
+    }
+}
